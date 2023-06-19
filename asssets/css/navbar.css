@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header{
+  height: 11rem;
+  background-color: #fff;
+}
+
+
+
+.toggler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.toggler span{
+  display: block;
+  height: 5px;
+  width: 30px;
+  margin: 2px;
+  background-color: #000000;
+}
+
+.navbar-2 {
+  background-color: #fff;
+  margin: 0;
+}
+
+.custom-nav-item{
+  font-weight: 500;
+  align-self: flex-start;
+  display: block;
+  display: block;
+  width: 100px;
+  text-align: center;
+  border: 0.5pt solid black;
+}
+.custom-nav-item a , .third-navbar li a , .title  ,   .title:active {
+  color: #be156a ;
+}
+
+.active {
+  color: white !important;
+  background-color: #be156a;
+  /* padding: 50px; */
+}
+
+.second-nav{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  justify-content: space-around;
+}
+
+
+.third-navbar {
+  width: 100vw;
+  height: 3rem;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  background-color: rgb(145, 138, 138);
+}
+
+.third-navbar li {
+  margin: 5px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.third-navbar li a {
+  padding-right:5px;
+  display: inline-block;
+  height: 20px;
+  border-right: 2px solid black;
+}
+
+.hero-section , .actualite {
+  margin-top: 12rem ;
+}
+
+.date-posted {
+  font-weight: 900;
+  font-size: 8pt;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 16pt;
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
+
+
+.title:hover {
+  cursor: pointer;
+  color: #be156ac5 ;
+  font-weight: 600;
+}
+
+
+
+  .post-title {
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+  }
+
+  .post-img {
+    width: 80%;
+    height: 15rem;
+  }
+
+  .aticle-img{
+    float: left;
+    margin: 8px;
+  }
+
+  .img {
+    height:200px
+  }
+
+  .footer {
+      background-color: #a83970c5 ;
+    
+    }
+
+.footer-links li a{
+  color: white;
+  font-size: larger;
+}
