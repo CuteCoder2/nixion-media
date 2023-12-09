@@ -1,371 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="./asssets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./asssets/css/navbar.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="stylesheet" href="./asssets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./asssets/css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body>
+  <body>
+    <!-- header start  -->
+    <header class="fixed-top main-header">
+      <div class="container">
+        <header
+          class="d-flex navbar-expand-md flex-wrap justify-content-center py-3 mb-4 border-bottom"
+        >
+          <div
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="toggler">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <a
+            href="./index.html"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+          >
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap" />
+            </svg>
+            <span class="fs-4">Nixion Media</span>
+          </a>
 
-        <!-- header start  -->
-        <header class="fixed-top main-header">
-            <div class="container">
-                <header class="d-flex navbar-expand-md flex-wrap justify-content-center py-3 mb-4 border-bottom">
-                    <span class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <div class="toggler">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </span>
-                    <a href="./index.html" 
-                  class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-                    <span class="fs-4">Nixion Media</span>
-                  </a>
-            
-                  <ul class="nav nav-pills">
-                    <li class="nav-item"><a href="#" class="nav-link">Trending</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Economic</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Politics</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Crisis</a></li>
-                  </ul>
-                </header>
-              </div>
-    
-            <nav class="navbar navbar-expand-md navbar-2">
-    
-                <div class="collapse navbar-collapse second-nav" id="navbarCollapse">
-                    <ul class="navbar-nav">
-                        <li class="nav-item custom-nav-item">
-                            <a class="nav-link" href="./index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item custom-nav-item">
-                            <a class="nav-link" href="#">BX1 Radio</a>
-                        </li>
-                        <li class="nav-item custom-nav-item">
-                            <a class="nav-link" href="#">Direct TV</a>
-                        </li>
-                        <li class="nav-item custom-nav-item">
-                            <a class="nav-link" href="#">Direct TV</a>
-                        </li>
-                        <li class="nav-item custom-nav-item">
-                            <a class="nav-link active" href="./user.html">User</a>
-                        </li>
-                    </ul>
-                    
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="fa-brands text-danger fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="fa-brands fa-instagram text-warning"></i>
-                            </a>
-                        </li>
-                    </ul>
-    
-                </div>
-            </nav>
-            <ul class="third-navbar">
-                <li><a href="">Meteo</a></li>
-                <li><a href="">Crise Chez Delhaize</a></li>
-                <li><a href="">Fische Josaphat</a></li>
-                <li><a href="">Accueil des refugles</a></li>
-                <li><a href="">Attentas de Bruxelles</a></li>
-            </ul>
-    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link">Trending</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Economic</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Politics</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Crisis</a></li>
+          </ul>
         </header>
-        <!-- header end  -->
+      </div>
+
+      <nav class="navbar navbar-expand-md navbar-2">
+        <div class="collapse navbar-collapse second-nav" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item custom-nav-item">
+              <a class="nav-link" href="./index.html">Accueil</a>
+            </li>
+            <li class="nav-item custom-nav-item">
+              <a class="nav-link" href="#">BX1 Radio</a>
+            </li>
+            <li class="nav-item custom-nav-item">
+              <a class="nav-link" href="#">Direct TV</a>
+            </li>
+            <li class="nav-item custom-nav-item">
+              <a class="nav-link" href="#">Direct TV</a>
+            </li>
+            <li class="nav-item custom-nav-item">
+              <a class="nav-link active" href="./view/user.html">User</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-brands text-danger fa-youtube"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-brands fa-instagram text-warning"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <ul class="third-navbar">
+        <li><a href="">Meteo</a></li>
+        <li><a href="">Crise Chez Delhaize</a></li>
+        <li><a href="">Fische Josaphat</a></li>
+        <li><a href="">Accueil des refugles</a></li>
+        <li><a href="">Attentas de Bruxelles</a></li>
+      </ul>
+    </header>
+    <!-- header end  -->
 
     <!-- hero section start  -->
     <section class="hero-section">
-        <div class="container-fluid ">
-            <div class="row">
-                <div class="d-flex justify-content-center">
-                    <img src="./media/bjrBruxelle.png" class="mt-5" alt="" srcset="">
-                </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="d-flex justify-content-center">
+            <img src="./media/bjrBruxelle.png" class="mt-5" alt="" srcset="" />
+          </div>
         </div>
+      </div>
     </section>
     <!-- hero section end -->
 
     <!-- main start here  -->
     <main class="container mt-5">
-        <div class="row justify-content-center p-2">
-            <div class="col-8">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="h1 m-auto mr-5">Actualites</h1>
-                    </div>
-                            
-                            <div class="col-12 col-md-6">
-                                <div class="p-2">
-                                    <div class="card-header">
-                                        <a href="./article.html" class="card-title title">
-                                            Samuel Eto'o, a fiery president increasingly contested within Cameroonian football
-                                        </a>
-                                        <span class="date-posted">
-                                            12-12-2022,20h:00
-                                        </span>
-                                    </div>
-                                    <div class="card-body">
-                                        <img 
-                                        class="card-img img" 
-                                        src="https://img.lemde.fr/2022/08/11/0/0/0/0/556/0/75/0/c8557b5_1660222451695-000-9yc6m3.jpg" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="p-2">
-                                    <div class="card-header">
-                                        <a href="./article.html" class="card-title title">
-                                            Carlos Alcaraz favori de Wimbledon? Sur gazon, il est plus précoce que Federer, Djokovic et Nadal
-                                        </a>
-                                        <span class="date-posted">
-                                            26-06-2023,11h59
-                                        </span>
-                                    </div>
-                                    <div class="card-body">
-                                        <img class="card-img img" src="https://www.lavenir.net/resizer/5FNp4RSUFLaHqUXVo0vq5HBzP5Y=/768x512/filters:format(jpeg):focal(251x175.5:261x165.5)/cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/HVK76K6LBVEFVGLDU7GUTBQRMQ.jpg" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="p-2">
-                                    <div class="card-header">
-                                        <a href="./article.html" class="card-title title">
-                                            Bruxelles Formations propose 23.000 places de formation en 2023
-                                        </a>
-                                        <span class="date-posted">
-                                            12/12/3 : 15:30
-                                        </span>
-                                    </div>
-                                    <div class="card-body">
-                                        <img class="card-img img" src="https://ds.static.rtbf.be/article/image/770x433/d/c/c/b44ca167-f90c-492b-8f45-ab8e04772d0f.jpg" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="p-2">
-                                    <div class="card-header">
-                                        <a href="./article.html" class="card-title title">
-                                            Bruxelles : le pont de la gare de Saint-Job va être remplacé, le point sur les perturbations
-                                        </a>
-                                        <span class="date-posted">
-                                            21-06-2023  17h:49
-                                        </span>
-                                    </div>
-                                    <div class="card-body">
-                                        <img class="card-img img" src="https://leseng.rosselcdn.net/sites/default/files/dpistyles_v2/ls_16_9_864w/2023/06/21/node_520955/30230958/public/2023/06/21/image%3Dd-20170306-geavqz_high.jpeg?itok=xhFfyHWF1687362708" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="p-2">
-                                    <div class="card-header">
-                                        <a href="./article.html" class="card-title title">
-                                            139 emplois inoccupés à Bruxelles : un partenariat public-privé pour lutter contre la pénurie dans le secteur des assurances
-                                        </a>
-                                        <span class="date-posted">
-                                            20/06/2023  10h:47
-                                        </span>
-                                    </div>
-                                    <div class="card-body">
-                                        <img class="card-img img" 
-                                        src="https://spgeng.rosselcdn.net/sites/default/files/dpistyles_v2/sp_16_9_864w/2023/06/20/node_678856/54888762/public/2023/06/20/B9734566778Z.1_20230620104749_000%2BGBRN0AUBK.1-0.jpg?itok=Ssfe5q8s1687348863" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-md-6">
-                                <div class="p-2">
-                                    <div class="card-header">
-                                        <a href="./article.html" class="card-title title">
-                                            Procès des attentats à Bruxelles: la défense de Bilal El Makhoukhi demande l'ajout de deux questions subsidiaires
-                                        </a>
-                                        <span class="date-posted">
-                                           26-06-2023  16h51
-                                        </span>
-                                    </div>
-                                    <div class="card-body">
-                                        <img class="card-img img" 
-                                        src="https://www.dhnet.be/resizer/TRoQXH7G6zq1-zKCMFCY67P0xlc=/768x512/filters:format(jpeg):focal(3440x1943:3450x1933)/cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/KVEQQIJU6FAGFKKYYPVCTE4LYY.jpg" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-md-6">
-                                <div class="p-2">
-                                    <div class="card-header">
-                                        <a href="./article.html" class="card-title title">
-                                            Inauguration de la rue Joseph Dupont
-                                        </a>
-                                        <span class="date-posted">
-                                            28-06-2023,16h30
-                                        </span>
-                                    </div>
-                                    <div class="card-body">
-                                        <img class="card-img img" 
-                                        src="https://www.bruxelles.be/sites/default/files/styles/agenda_detail_image/public/agendaimages/dupont2.jpg?itok=EnlndZ7R" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-                           
-
-
-
-                            <div class="col-12 col-md-6">
-                                <div class="p-2">
-                                    <div class="card-header">
-                                        <a href="./article.html" class="card-title title">
-                                            Procès des attentats de Bruxelles : pour les parties civiles, “Osama Krayem n’a pas changé”
-                                        </a>
-                                        <span class="date-posted">
-                                            08-12-2023, 18h00
-                                        </span>
-                                    </div>
-                                    <div class="card-body">
-                                        <img class="card-img img" 
-                                        src="https://bx1.be/wp-content/uploads/2023/06/attentat-de-Bruxelles-parties-civiles-proces-22-mars-e1686200097977.png" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-                           
-                            <div class="col-12 col-md-6">
-                                <div class="p-2">
-                                    <div class="card-header">
-                                        <a href="./article.html" class="card-title title">
-                                            Vous pouvez désormais prendre un cocktail sur le toit du nouveau centre administratif de Bruxelles, avec une vue panoramique à la clé (Photos)
-                                        </a>
-                                        <span class="date-posted">
-                                            23-09-2023 à 17:36
-                                        </span>
-                                    </div>
-                                    <div class="card-body">
-                                        <img class="card-img img" 
-                                        src="https://ds.static.rtbf.be/article/image/770x433/a/e/4/934f1f755a683faa6812ead123d74c9a-1687535441.jpg" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="p-2">
-                                    <div class="card-header">
-                                        <a href="./article.html" class="card-title title">
-                                            Championnes d’Europe, les Belgian Cats seront accueillies sur le balcon de l’Hôtel de ville de Bruxelles ce mardi
-                                        </a>
-                                        <span class="date-posted">
-                                            26-06-2023, 11h27
-                                        </span>
-                                    </div>
-                                    <div class="card-body">
-                                        <img class="card-img img" 
-                                        src="https://www.lavenir.net/resizer/bB2PsjHcNJdjFlIbMurqr2_OVyw=/768x512/filters:format(jpeg):focal(2668.5x1787.5:2678.5x1777.5)/cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/PJJT6E7365D3BF2EPZUAA4PDQQ.jpg" alt="" srcset="">
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
+      <div class="row justify-content-center p-2">
+        <div class="col-10">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="h1 m-auto mr-5">Actualites</h1>
+            </div>
+            <div class="row col-12" id="articles">
+                hello
+            </div>
+          </div>
         </div>
+      </div>
     </main>
     <!-- main end here  -->
     <div class="b-example-divider"></div>
 
     <div class="container-fluid footer p-5 pb-0">
-    
-        <div class="row">
-            <div class="col-6 col-md-2 mb-3">
-              <h2 class="h-1">Contact</h2>
-              <ul class="nav flex-column footer-links">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">+236 69853241</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">nixionMedia@email.com</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">walstreet 15 avenue</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">À propos</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-6 col-md-2 mb-3">
-              <h2 class="h-1" >Titres</h2>
-              <ul class="nav flex-column footer-links">
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Trending</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">New</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Economie</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Job</a></li>
-                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Apropos de nous</a></li>
-              </ul>
-            </div>
-      
-            <div class="col-md-5 offset-md-1 mb-3">
-              <form>
-                <h5>Abonnez-vous à notre newsletter</h5>
-                <p>Résumé mensuel de ce qui est nouveau et excitant de notre part.</p>
-                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label for="newsletter1" class="visually-hidden">Email address</label>
-                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                  <button class="btn btn-primary" type="button">Abonné</button>
-                </div>
-              </form>
-            </div>
-          </div>
-    
-      <footer class="d-flex  flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-          </a>
-          <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 NixionMedia Inc</span>
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h2 class="h-1">Contact</h2>
+          <ul class="nav flex-column footer-links">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >+236 69853241</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >nixionMedia@email.com</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >walstreet 15 avenue</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">À propos</a>
+            </li>
+          </ul>
         </div>
-    
+
+        <div class="col-6 col-md-2 mb-3">
+          <h2 class="h-1">Titres</h2>
+          <ul class="nav flex-column footer-links">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Trending</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">New</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Economie</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Job</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >Apropos de nous</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Abonnez-vous à notre newsletter</h5>
+            <p>
+              Résumé mensuel de ce qui est nouveau et excitant de notre part.
+            </p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden"
+                >Email address</label
+              >
+              <input
+                id="newsletter1"
+                type="text"
+                class="form-control"
+                placeholder="Email address"
+              />
+              <button class="btn btn-primary" type="button">Abonné</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >&copy; 2023 NixionMedia Inc</span
+          >
+        </div>
+
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li class="ms-3">
             <a class="text-body-secondary" href="#">
-                <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-twitter"></i>
             </a>
-        </li>
+          </li>
           <li class="ms-3">
             <a class="text-body-secondary" href="#">
-                <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-facebook-f"></i>
             </a>
-        </li>
+          </li>
           <li class="ms-3">
             <a class="text-body-secondary" href="#">
-                <i class="fa-brands text-danger fa-youtube"></i>
+              <i class="fa-brands text-danger fa-youtube"></i>
             </a>
-        </li>
+          </li>
           <li class="ms-3">
             <a class="text-body-secondary" href="#">
-                <i class="fa-brands fa-instagram text-warning"></i>
+              <i class="fa-brands fa-instagram text-warning"></i>
             </a>
-        </li>
+          </li>
         </ul>
       </footer>
     </div>
-    
-        <script src="./asssets/js/bootstrap.bundle.min.js"></script>
-        
-    </body>
-    </html>
+    <script src="./asssets/js/jQuery.js"></script>
+    <script src="./asssets/js/index.js"></script>
+    <script src="./asssets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Article</title>
-    <link rel="stylesheet" href="./asssets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./asssets/css/navbar.css">
+    <link rel="stylesheet" href="../asssets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../asssets/css/navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -100,23 +100,27 @@
         
         <div class="row actualite">
                 <div class="d-flex justify-content-center">
-                    <img src="https://img.lemde.fr/2022/08/11/0/0/0/0/556/0/75/0/c8557b5_1660222451695-000-9yc6m3.jpg" class="mt-5 post-img" alt="" srcset="">
+                    <img
+                    id="article-img"
+                     class="mt-5 post-img" 
+                     alt="" srcset="">
                 </div>
-            </div>
+            </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 
         <div class="row justify-content-center p-2">
             <div class="col-8">
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="h1 m-auto mr-5 post-title">Actualites</h1>
+                        <h1 class="h1 m-auto mr-5 post-title" id="heading">
+                        </h1>
                     </div>
                     <div class="col-12">
-                        <h1 class="h2 m-auto mr-5 uppercase">
-                            Samuel Eto'o, a fiery president increasingly contested within Cameroonian football
+                        <h1 class="h2 m-auto mr-5 uppercase" id="heading2">
+
                         </h1>
                     </div>
                         </div>
-                        <div>
+                        <div id="content">
                             <p>Although one of Samuel Eto'o's goals was to restore international visibility to the Cameroonian game, the president of Fecafoot, the national federation, could consider that his contract has been largely fulfilled. Since his election for four years on December 11, 2021, the former international and striker of the Indomitable Lions has not missed any opportunities to become the topic of conversation, and consequentially, the body he leads as well. </p>
                                   <p>"It was to be expected. Eto'o was one of the best players in the world. He played in big clubs [FC Barcelona, Inter Milan, Chelsea etc.], and he is a strong personality, very media-oriented. Everything he says and does takes on proportions that would not have been the same if Fecafoot had been presided over by someone else," said Claude Jabéa Bekombo, the coordinator of the Center for Research on Sport in Africa, in Yaoundé. Since he took office, the former striker has made a series of spectacular and increasingly contested decisions.
                                   </p>
@@ -233,7 +237,10 @@ However, Mr. Gatama has also blamed the federation boss for making appointments 
   </footer>
 </div>
 
-    <script src="./asssets/js/bootstrap.bundle.min.js"></script>
+
+<script src="../asssets/js/jQuery.js"></script>
+<script src="../asssets/js/article.js"></script>
+<script src="../asssets/js/bootstrap.bundle.min.js"></script>
     
 </body>
 </html>
