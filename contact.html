@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" href="../asssets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../asssets/css/navbar.css">
+    <link rel="stylesheet" href="./asssets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asssets/css/navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -28,15 +28,25 @@
                     </span>
                         <a href="./index.html" 
                       class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-                        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-                        <span class="fs-4">Nixion Media</span>
+                      <img src="./media/bx1.jpeg" class="logo"/>
                       </a>
+                      <div class="row input-search"> 
+                        <div class="search"> 
+                              <div> <div class="search-2">
+                                 <i class='bx bxs-map' ></i>
+                                  <input type="text" placeholder="reherche">
+                                   <!-- <button>Searcqdh</button> -->
+                                   </div>
+                                   </div> 
+                                  </div>
+                    </div>
                 
                       <ul class="nav nav-pills">
-                        <li class="nav-item"><a href="#" class="nav-link">Trending</a></li>
+                        <li class="nav-item"><a href="./user articles.html" class="nav-link">Article</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Economic</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Politics</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Crisis</a></li>
+                        <li class="nav-item"><a href="./about.html" class="nav-link">A propos</a></li>
+                        <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
                       </ul>
                     </header>
                   </div>
@@ -107,41 +117,27 @@
                         <form action="">
                             <div class="row">
                                 <div class="col-md-6 col-12">
-                                    <label for="" class="form-label">Nom</label>
-                                    <input type="text" class="form-control">
-                                </div>
-                                <div class="col-md-6 col-12">
-                                    <label for="" class="form-label">Prenom</label>
+                                    <label for="" class="form-label">En tete</label>
                                     <input type="text" class="form-control">
                                 </div>
                                 <div class="col-md-6 col-12">
                                     <label for="" class="form-label">E-Mail</label>
                                     <input type="text" class="form-control">
                                 </div>
-                                <div class="col-md-6 col-12">
-                                    <label for="" class="form-label">Address</label>
+                                <div class="col-12">
+                                    <label for="" class="form-label">Nom</label>
                                     <input type="text" class="form-control">
                                 </div>
-                                <div class="col-md-6 col-12">
-                                    <label for="" class="form-label">Password</label>
-                                    <input type="password" class="form-control">
+                                <div class="col-12">
+                                    <label for="" class="form-label">Message</label>
+                                    <textarea rows="5" type="text" class="form-control" >
+
+                                    </textarea>
                                 </div>
-                                <div class="col-md-6 col-12">
-                                    <label for="" class="form-label">Confirm Password</label>
-                                    <input type="password" class="form-control">
+                                <div class="col-12 my-3">
+                                    <button class="btn w-100 btn-info">Sumettre</button>
                                 </div>
-                                <div class="col-12 mt-2">
-                                    <button type="submit" class="form-control btn btn-info">
-                                        Connecter
-                                    </button>
-                                </div>
-                                <ul class="nav f">
-                                    <li class="nav-item m-2">
-                                        <a href="#" class="nav-link p-0 text-body-secondary">
-                                            mot de pass oulbié
-                                        </a>
-                                    </li>
-                                </ul>
+                                
                                     
                             </div>
                         </form>
